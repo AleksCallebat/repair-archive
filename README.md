@@ -18,7 +18,7 @@ The Repair Record is an application profile of existing standards rather than a 
 
 ## Ethics and consent
 
-Counter-archiving is legitimate only when coupled to the material conditions of the craft. Records that document living, named makers are deposited with consent and attribution, and with a commitment to benefit-sharing from any downstream use, including AI. Where a maker's full testimony is not yet cleared for open release, this repository holds a summary record and withholds the full transcript pending the maker's agreement on scope and benefit-sharing (see `records/rafoogari-najibabad.md`).
+Counter-archiving is legitimate only when coupled to the material conditions of the craft. Records that document living, named makers are deposited with consent and attribution, and with a commitment to benefit-sharing from any downstream use, including AI. Where a maker's full testimony is not yet cleared for open release, this repository holds a summary record and withholds the full transcript pending the maker's agreement on scope and benefit-sharing. The audiovisual interview behind the first record is shared as an unlisted video (linkable from the record, not broadcast or searchable) rather than as an open transcript (see `records/rafoogari-najibabad.md`).
 
 ## Licence
 

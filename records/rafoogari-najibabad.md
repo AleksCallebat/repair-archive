@@ -10,7 +10,7 @@
 - **D. Result:** detectability at or near 0 (invisible on the face of the cloth).
 - **E. Physical specimen:** not yet collected (to be added in a future instance record).
 - **F. Rights and governance:** the practitioner consented to recording, publication, and machine-processing. Attribution: Rizwan Khan. Benefit-sharing: intended (see note). The full interview transcript is held by the author and is withheld from open release here pending the practitioner's agreement on the scope of open deposit and a benefit-sharing arrangement.
-- **G. Record provenance:** recorded by Saba Alvi, September 2026; video interview (Hindi); transcribed via speech-to-text and reconciled against a human translation. Capture methods: audiovisual, written.
+- **G. Record provenance:** recorded by Saba Alvi, September 2026; video interview (Hindi), shared as an unlisted recording at https://www.youtube.com/watch?v=1FNUAzyK7XI ; transcribed via speech-to-text and reconciled against a human translation. Capture methods: audiovisual, written.
 
 ## Vitality and threat (from the interview)
 
@@ -19,10 +19,11 @@ The practitioner locates the threat in lost livelihood rather than lost records:
 ## Consent and ethics
 
 - Consent to record, publish, and use with AI: given.
+- Audiovisual interview: shared as an **unlisted** video (linkable from this record, not broadcast or searchable): https://www.youtube.com/watch?v=1FNUAzyK7XI
 - Open release of the full transcript: **withheld** pending a benefit-sharing agreement and confirmation of scope (see the repository README, "Ethics and consent").
 - Attribution and any downstream (including AI) benefit-sharing: owed to the practitioner.
 
 ## Sources
 
-- Primary: author interview with Rizwan Khan (rafoogar), Najibabad tradition, 2026 (held by the author).
+- Primary (audiovisual): author video interview with Rizwan Khan (rafoogar), Najibabad tradition, 2026 (Hindi). Unlisted recording: https://www.youtube.com/watch?v=1FNUAzyK7XI
 - Mehra, P. R. (2004). 'Rafoogari' of Najibabad. *Textile Society of America Symposium Proceedings*.
