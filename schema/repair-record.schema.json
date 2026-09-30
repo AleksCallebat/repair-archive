@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/AleksCallebat/Fix-That-Shirt/repair-archive/schema/repair-record.schema.json",
+  "$id": "https://raw.githubusercontent.com/Fix-That-Shirt/repair-archive/main/schema/repair-record.schema.json",
   "title": "Repair Record",
   "description": "Instance-level record of a single act of garment/textile repair. Application profile of CIDOC-CRM/CRMsci, W3C PROV, and Europeana EDM-FP.",
   "type": "object",
