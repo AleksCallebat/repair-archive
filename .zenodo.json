@@ -1,0 +1,24 @@
+{
+  "title": "Repair Archive (seed): Repair Traditions Atlas and Repair Record data standard",
+  "description": "An open, citable seed for the repair archival intelligence proposed in Alvi (2026), 'Stitched Knowledge: Fashion Archives, Global Repair Traditions, and the Case for Archival Intelligence in Sustainable Practice' (SCIN 2026; Springer Advances in Science, Technology and Innovation). Contains the Repair Traditions Atlas (traditions scored against a seven-dimension schema), the Repair Record data standard (human-readable specification and JSON Schema), and a first deposited record of invisible reweaving (rafoogari). Version 0.1: openly incomplete and built to be extended with practitioners and curators.",
+  "upload_type": "dataset",
+  "version": "0.1.0",
+  "language": "eng",
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Alvi, Saba",
+      "affiliation": "Istituto Marangoni, Paris; Fix That Shirt, Paris"
+    }
+  ],
+  "keywords": [
+    "repair archives",
+    "counter-archiving",
+    "textile repair traditions",
+    "archival intelligence",
+    "fashion sustainability",
+    "CIDOC-CRM",
+    "invisible reweaving"
+  ]
+}
