@@ -1,5 +1,7 @@
 # Repair Archive (seed)
 
+[![DOI](https://zenodo.org/badge/1396825615.svg)](https://doi.org/10.5281/zenodo.23058243)
+
 An open, citable seed for the "repair archival intelligence" proposed in Alvi (2026), *Stitched Knowledge: Fashion Archives, Global Repair Traditions, and the Case for Archival Intelligence in Sustainable Practice* (SCIN 2026; Springer Advances in Science, Technology & Innovation).
 
 The paper argues that garment-repair knowledge is dispersed, under-catalogued, and, at the living and invisible pole, actively vanishing. Rather than only call for an archive, this repository begins one. It is version 0.1: a first cartography that is openly incomplete and built to be extended with practitioners and curators.
