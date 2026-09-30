@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Repair Archive (seed): Repair Traditions Atlas and Repair Record schema"
+message: "If you use this repository, please cite it and the associated paper."
+type: dataset
+authors:
+  - family-names: Alvi
+    given-names: Saba
+    affiliation: "Istituto Marangoni, Paris; Fix That Shirt, Paris"
+version: 0.1.0
+date-released: "2026-09-30"
+license: CC-BY-4.0
+keywords:
+  - repair archives
+  - counter-archiving
+  - textile repair traditions
+  - archival intelligence
+  - fashion sustainability
+references:
+  - type: conference-paper
+    title: "Stitched Knowledge: Fashion Archives, Global Repair Traditions, and the Case for Archival Intelligence in Sustainable Practice"
+    authors:
+      - family-names: Alvi
+        given-names: Saba
+    year: 2026
+    collection-title: "SCIN 2026 (Intelligent Archives); Springer Advances in Science, Technology & Innovation (ASTI)"

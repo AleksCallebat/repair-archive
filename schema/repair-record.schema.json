@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/AleksCallebat/Fix-That-Shirt/repair-archive/schema/repair-record.schema.json",
+  "title": "Repair Record",
+  "description": "Instance-level record of a single act of garment/textile repair. Application profile of CIDOC-CRM/CRMsci, W3C PROV, and Europeana EDM-FP.",
+  "type": "object",
+  "required": ["id", "object_context", "intervention", "rights_governance", "record_provenance"],
+  "properties": {
+    "id": { "type": "string", "description": "Stable identifier for this record." },
+    "object_context": {
+      "type": "object",
+      "description": "Field A. Object and context.",
+      "required": ["garment_type"],
+      "properties": {
+        "garment_type": { "type": "string" },
+        "fibre_and_construction": { "type": "string" },
+        "provenance": { "type": "string" },
+        "cultural_origin": { "type": "string" },
+        "atlas_tradition": { "type": "string", "description": "Link to a Repair Traditions Atlas tradition." }
+      }
+    },
+    "damage_before": {
+      "type": "object",
+      "description": "Field B. Damage, documented before repair. Maps to a CRMsci alteration/observation event.",
+      "properties": {
+        "damage_type": { "type": "string" },
+        "location": { "type": "string" },
+        "extent": { "type": "string" },
+        "cause": { "type": "string" },
+        "before_images": { "type": "array", "items": { "type": "string", "description": "URI or path" } },
+        "date": { "type": "string", "format": "date" }
+      }
+    },
+    "intervention": {
+      "type": "object",
+      "description": "Field C. The repair technique. Maps to a CIDOC-CRM activity (E7) with actors, tools, materials.",
+      "required": ["technique"],
+      "properties": {
+        "technique": { "type": "string", "description": "Controlled-vocabulary technique name." },
+        "intent_mode": { "type": "string", "enum": ["invisible-restorative", "visible-functional", "expressive", "transformative"] },
+        "tools": { "type": "array", "items": { "type": "string" } },
+        "materials_yarns": { "type": "array", "items": { "type": "string" } },
+        "step_sequence": { "type": "array", "items": { "type": "object", "properties": { "t": { "type": "string" }, "action": { "type": "string" } } } },
+        "skill_register": { "type": "string", "enum": ["vernacular", "skilled-amateur", "specialist", "masterly"] },
+        "time_taken": { "type": "string" },
+        "maker": { "type": "string" },
+        "attribution": { "type": "string" }
+      }
+    },
+    "result_after": {
+      "type": "object",
+      "description": "Field D. Result, after repair.",
+      "properties": {
+        "after_images": { "type": "array", "items": { "type": "string" } },
+        "detectability": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "durability": { "type": "string" },
+        "reversibility": { "type": "string" }
+      }
+    },
+    "physical_specimen": {
+      "type": "object",
+      "description": "Field E. Retained physical sample.",
+      "properties": {
+        "technique_swatch": { "type": "string" },
+        "removed_material_sample": { "type": "string" }
+      }
+    },
+    "rights_governance": {
+      "type": "object",
+      "description": "Field F. Rights and governance.",
+      "required": ["maker_consent"],
+      "properties": {
+        "maker_consent": { "type": "string", "description": "Scope of consent, e.g. record/publish/AI-processing." },
+        "attribution": { "type": "string" },
+        "cultural_ip_licence": { "type": "string" },
+        "community_governance": { "type": "string" },
+        "benefit_sharing": { "type": "string" }
+      }
+    },
+    "record_provenance": {
+      "type": "object",
+      "description": "Field G. Provenance of the record itself (W3C PROV).",
+      "required": ["recorder", "date"],
+      "properties": {
+        "recorder": { "type": "string" },
+        "date": { "type": "string" },
+        "capture_method": { "type": "array", "items": { "type": "string", "enum": ["written", "audiovisual", "physical-sample", "before-during-after-imaging"] } }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+mode,tradition_region,detectability_0_5,skill,vitality,transmission,material_economic,archival_status
+Invisible / restorative,Rafoogari (India: Najibabad/Delhi),0,Mast,Crit (down),Fam/Appr (m),nat; lux,"L,C; tech; n"
+Invisible / restorative,Stoppage / stoppage d'art (France),0,Mast,Crit (down),Fam/Appr (mix),nat/mix; svc/lux,L; tech; part
+Invisible / restorative,"Invisible mending / reweaving (IT, ES, DE, UK)",0,Spec/Mast,Endang (down),Appr/Comm (mix),nat; svc/lux,L; obj/tech; n
+Invisible / restorative,Kaketsugi (Japan),0,Mast,Endang (down),Fam/Appr,nat; svc/lux,L; tech?; part
+Invisible / restorative,"Persian / Central Asian rafou (Iran, C. Asia)",0?,Spec,Decl?,Fam,nat; dom/svc,L; sparse; n
+Invisible / restorative,"Zhibu / jinggong zhibu ""delicate darning"" (China)",0,Spec/Mast,Decl->(R),Fam/Comm (mix),nat (wool/silk); svc/lux,"L,I; tech; part"
+Invisible / restorative,"Carpet reweaving / reknotting (Iran, Turkey, C. Asia)",0,Spec/Mast,Viable? (svc),Fam/Appr (m),nat (wool/silk); lux/svc,"L,C,M; obj/tech; part"
+Visible / expressive,"Darning samplers / stoplappen (NL, UK, DE, BE, DK)",3,Skl/Vern,Extinct as practice; (R) heritage,Voc/school (f),nat; dom,"M,T; obj/tech; part"
+Visible / expressive,Sashiko (Japan),3,Vern->Spec,Viable (up) (R),Fam/Comm,nat; dom/art,"L,M,I; tech; part"
+Visible / expressive,Kogin / Hishi / Shonai-sashi (Japan),3,Spec,Decl->(R),Voc/Comm (f),nat; art/heritage,"L,M; tech; part"
+Visible / expressive,Visible-mending movement (global),5,Vern->Skl,Thriv (up),Self/online/Comm,mix; dom/art,L(+online); tech; part
+Visible / expressive,"Scandinavian mending (SE, NO)",2->4,Vern,Decl->(R),Fam/school (f),nat; dom,"L,M; tech; part"
+Visible / expressive,"Ceramic staple juci + kintsugi (CN, JP)",4,Mast,Dorm->(R),Appr/Self,(ceramic; cross-material),"L,M; tech; part"
+Visible / expressive,Sashiko denim repair (global),4,Vern->Skl,Thriv (up),Self/Comm,cotton/denim; svc/art,L; tech; part
+Transformative / accretive,"Kantha / kheta / sujni (Bengal, Bihar)",4,Vern->Spec,Viable (R),Fam/Comm (f),nat; dom/svc/ngo,"L,M,I; tech; part"
+Transformative / accretive,"Boro (Japan, Tohoku)",4,Vern,Extinct historic; (R) as art,Fam (historic),nat; art/heritage,"M,L; obj/tech; part"
+Transformative / accretive,Andean repair/reuse (Peru/Chile; Inca-era),3,Vern->Spec,Extinct (archaeological record),n/a,nat (camelid/cotton),"M,C; obj; n"
+Transformative / accretive,Jogakbo / bojagi (Korea),4,Vern->Skl,Viable (R),Fam (f),nat (silk/ramie); dom/art,"M,L; tech; part"
+Transformative / accretive,"Baijiayi ""hundred families robe"" (China)",4,Vern,Dorm,Fam/community (f),nat (silk); dom,M; obj; n
+Transformative / accretive,"Shuitianyi ""paddy-field garment"" (China, Ming/Qing)",4,Vern->Skl,Extinct,n/a (historic),nat; dom/fashion,M; obj; n
+Transformative / accretive,"Gee's Bend quilts (USA, Alabama)",4,Vern->Mast,Viable (up) (R),Fam/community (f),nat (work-clothes/denim); dom/art,"M,L; tech; part"
+Transformative / accretive,"Ralli quilts (Pakistan/India: Sindh, Rajasthan)",4,Vern,Viable,Fam/community (f),nat (cotton); dom/svc,"M,L; tech; part"
+Transformative / accretive,"Godhadi / gudari (India, Maharashtra)",3,Vern,Viable->Decl,Fam (f),nat/syn (old saris); dom,"L,(I); tech; n"
+Transformative / accretive,"Kawandi (India, Siddi/Karnataka)",4,Vern,Decl,Fam/community (f),nat; dom,"M,L; obj/tech; n"
+Transformative / accretive,Tatreez refashioning (Palestine/diaspora),3,Vern->Spec,Viable (R),Fam/ngo (f),nat (cotton/silk); dom/ngo,"M,L,I; tech; part"
+Transformative / accretive,Miao / Hmong reuse (China/Vietnam),3,Vern,Decl,Fam/Comm (f),nat (hemp/cotton); dom/market,L; sparse; n
+Government records (cross-cutting; spans all modes),"Make Do and Mend (UK, WWII)",all,Vern (state-taught),Historic corpus,Gov/school,nat; dom,"G,M; tech; part"
+Government records (cross-cutting; spans all modes),"""Use It Up, Wear It Out, Make It Do"" (USA, WWII)",all,Vern,Historic corpus,Gov/school,nat; dom,"G,M; obj/tech; part"
